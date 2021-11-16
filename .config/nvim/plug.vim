@@ -44,6 +44,7 @@ call plug#begin(stdpath('data') . '/plugged')
   Plug 'folke/tokyonight.nvim'
   Plug 'sainnhe/gruvbox-material'
   Plug 'shaunsingh/nord.nvim'
+  Plug 'RRethy/nvim-base16'
 
   " tim pope plugins
   Plug 'tpope/vim-surround'

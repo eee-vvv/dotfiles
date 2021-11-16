@@ -1,5 +1,6 @@
 " EVAN'S INIT.VIM
 
+
 " Basics "{{{
 " -------------------------------------------------------------------
 " Disable compatibility with vi which can cause unexpected issues
