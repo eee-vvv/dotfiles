@@ -30,7 +30,7 @@ endif
 " leader), merely whether a leader is inserted by default or not.
 if get(g:, 'rust_bang_comment_leader', 0)
     " Why is the `,s0:/*,mb:\ ,ex:*/` there, you ask? I don't understand why,
-    " but without it, */ gets indented one space even if there were no
+    " but without it, */ gets indentd one space even if there were no
     " leaders. I'm fairly sure that's a Vim bug.
     setlocal comments=s1:/*,mb:*,ex:*/,s0:/*,mb:\ ,ex:*/,:///,://!,://
 else
@@ -197,4 +197,4 @@ let &cpo = s:save_cpo
 unlet s:save_cpo
 " vint: +ProhibitAbbreviationOption
 
-" vim: set et sw=4 sts=4 ts=8:
+" vim: set et sw=4 sts=4 ts=8:e
